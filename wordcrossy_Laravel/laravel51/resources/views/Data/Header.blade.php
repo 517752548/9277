@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Laravel</title>
+    <title>资源集</title>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
     <style>
@@ -18,14 +18,14 @@
 
             float: left;
             margin: auto;
-                     border: 1px solid red;
+                    // border: 1px solid red;
                  }
 
         div.body {
 
             width: 1200px;
             height: auto;
-            border: 1px solid red;
+            border: 1px solid whitesmoke;
             padding: 1px;
             margin: auto;
         }
@@ -34,7 +34,7 @@
             width: 900px;
             height: auto;
 
-            border: 1px solid green;
+           // border: 1px solid green;
             margin: auto;
         }
 
@@ -50,7 +50,7 @@
             width: 290px;
             height: 50px;
             text-align: center;
-            border: 1px solid red;
+           // border: 1px solid red;
             margin: auto;
             float: left;
         }
@@ -67,7 +67,7 @@
         .border {
             width: 800px;
             height: auto;
-            border: 1px solid gray;
+           // border: 1px solid gray;
         }
 
         form.clzz {
@@ -133,6 +133,7 @@
 <body>
 
 <div class="head">
+
 
     <div class="text">
         <h1>资源集</h1>

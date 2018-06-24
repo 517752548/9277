@@ -2,7 +2,7 @@
 <html>
 <footer>
     <div>
-        <h1>脚部</h1>
+        <h1></h1>
     </div>
 </footer>
 

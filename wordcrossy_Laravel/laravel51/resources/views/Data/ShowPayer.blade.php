@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Laravel</title>
+    <title>资源集</title>
     @include('Data.Header')
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
@@ -17,7 +17,7 @@
             @for($i = 0;$i< count($type_er);$i++)
                 <div class="allitem">
                     <a name="clickName" class="tittles" href="{{url('Word/Receive?name=').$type_er[$i]->Types_LName}}"
-                       target="_blank">1{{$type_er[$i]->Types_LName}}</a>
+                       target="_blank">{{$type_er[$i]->Types_LName}}</a>
                 </div>
             @endfor
         </div>

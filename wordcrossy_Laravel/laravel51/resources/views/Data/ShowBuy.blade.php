@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>资源集</title>
         @include('Data.Header')
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
         <style type="text/css">
@@ -33,7 +33,7 @@
                 <p class="forname">{{$typesall[0][$i]->name}}</p>
                 <p class="for">{{$typesall[0][$i]->des}}</p>
                 <p class="for">{{$typesall[0][$i]->url}}</p>
-                <a class="update" name="Update" href="{{url('Word/Update?id=').$typesall[0][$i]->id}}" target="_blank">修改</a>
+                {{--<a class="update" name="Update" href="{{url('Word/Update?id=').$typesall[0][$i]->id}}" target="_blank">修改</a>--}}
             </div>
 
         @endfor
